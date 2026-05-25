@@ -1,4 +1,4 @@
-# Dynamic Partner - Refonte et Amélioration Web 🚀
+# Dynamic Partner - Refonte et Amélioration Web 
 
 ##  Description du Projet
 Ce projet est une amélioration du site web "Dynamic Partner", une entreprise spécialisée dans la technologie, l'énergie (panneaux solaires) et la sécurité en Haïti. L'objectif de cette mise à jour était de transformer un site statique basique en une interface moderne, interactive et totalement responsive en intégrant des fonctionnalités JavaScript avancées et en optimisant le CSS.
