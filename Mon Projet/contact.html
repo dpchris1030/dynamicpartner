@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Partner | Contact</title>
+    <link rel="stylesheet" href="css/style.css?v=1.4">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/dp group.png" alt="Logo Dynamic Partner">
+                <span>Dynamic Partner</span>
+            </a>
+        </div>
+        
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <ul class="nav-links">
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="a-propos.html">À propos</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html" class="active">Contact</a></li>
+              <li id="dark-mode-toggle" style="cursor: pointer; font-size: 1.2rem; margin-left: 15px;" title="Activer le mode sombre">🌙</li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="page-banner contact-banner">
+        <div class="banner-content">
+            <h1>Restons connectés</h1>
+            <p>Notre équipe est à votre disposition pour répondre à toutes vos questions et vous fournir un accompagnement personnalisé.</p>
+        </div>
+    </section>
+
+    <section class="contact-modern-section">
+        <div class="contact-modern-container">
+            
+            <div class="contact-modern-form">
+                <h3>Envoyez-nous un message</h3>
+                <p>Nous vous répondrons dans les plus brefs délais.</p>
+                <form name="contact" method="POST" data-netlify="true">
+                    <input type="text" name="name" placeholder="Nom complet" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="message" placeholder="Votre message ou description de votre projet..." required></textarea>
+                    <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                </form>
+            </div>
+
+            <div class="contact-modern-info">
+                
+                <div class="info-card" style="border: none; box-shadow: none; padding: 0; background: transparent; margin-bottom: 30px;">
+                    <h4 style="margin-bottom: 15px; color: var(--primary-red);">Envie de discuter directement ?</h4>
+                    <p style="line-height: 1.6;">
+                        Vous pouvez utiliser le formulaire ci-contre pour nous décrire votre projet en détail. 
+                        Vous préférez les réseaux sociaux ? Cliquez ci-dessous pour nous rejoindre sur Instagram, 
+                        suivre nos dernières réalisations et échanger en direct avec notre équipe !
+                    </p>
+                </div>
+
+                <a href="https://www.instagram.com/dynamic_partnergroup._?igsh=c2x2YTFzYmN1czI4" target="_blank" style="text-decoration: none; color: inherit;">
+                    <div class="info-card" style="cursor: pointer;">
+                        <i style="font-size: 28px;">📸</i>
+                        <div>
+                            <h4>Rejoignez-nous sur Instagram</h4>
+                            <p style="color: var(--primary-red); font-weight: 600;">@dynamic_partnergroup._</p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Dynamic Partner - Tous droits réservés.</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
